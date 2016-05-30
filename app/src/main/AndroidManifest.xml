@@ -33,6 +33,7 @@
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -45,12 +46,16 @@
             android:name=".CountryListActivity"
             android:label="@string/title_activity_country_list"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="net.iqss.currencyconverter.MainActivity" />
         </activity>
+        <activity
+            android:name=".CheckGitActivity"
+            android:label="@string/title_activity_check_git"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

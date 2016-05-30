@@ -3,5 +3,6 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_country_list">CountryListActivity</string>
+    <string name="title_activity_check_git">CheckGitActivity</string>
 
 </resources>
